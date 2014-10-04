@@ -1,15 +1,19 @@
-package com.bignerdranch.android.criminalintent.app;
+package com.bignerdranch.android.criminalintent.app.controller;
 
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.ListFragment;
-import android.util.Log;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.CheckBox;
 import android.widget.ListView;
 import android.widget.TextView;
+
+import com.bignerdranch.android.criminalintent.app.R;
+import com.bignerdranch.android.criminalintent.app.model.Crime;
+import com.bignerdranch.android.criminalintent.app.model.CrimeLab;
 
 import java.util.ArrayList;
 
@@ -18,7 +22,7 @@ import java.util.ArrayList;
  */
 public class CrimeListFragment extends ListFragment {
 
-    private static final String TAG = "CrimeListFragment";
+    private static final String TAG = CrimeListFragment.class.getName();
 
     private ArrayList<Crime> mCrimes;
 
@@ -35,7 +39,15 @@ public class CrimeListFragment extends ListFragment {
     @Override
     public void onListItemClick(ListView l, View v, int position, long id) {
         Crime crime = ((CrimeAdapter) getListAdapter()).getItem(position);
-        Log.d(TAG, crime.getTitle() + " was clicked");
+        Intent intent = new Intent(getActivity(), CrimePagerActivity.class);
+        intent.putExtra(CrimeFragment.EXTRA_CRIME_ID, crime.getId());
+        startActivity(intent);
+    }
+
+    @Override
+    public void onResume() {
+        super.onResume();
+        ((CrimeAdapter)getListAdapter()).notifyDataSetChanged();
     }
 
     private class CrimeAdapter extends ArrayAdapter<Crime> {

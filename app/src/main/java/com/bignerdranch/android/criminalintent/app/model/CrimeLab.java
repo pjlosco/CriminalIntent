@@ -1,4 +1,4 @@
-package com.bignerdranch.android.criminalintent.app;
+package com.bignerdranch.android.criminalintent.app.model;
 
 import android.content.Context;
 
