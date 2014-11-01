@@ -18,14 +18,6 @@ public class CrimeLab {
     private CrimeLab(Context appContext) {
         mAppContext = appContext;
         mCrimes = new ArrayList<Crime>();
-
-        // Generate crimes for testing
-        for (int i = 0; i < 100; i++) {
-            Crime crime = new Crime();
-            crime.setTitle("Crime #" + i);
-            crime.setSolved(i%2==0);
-            mCrimes.add(crime);
-        }
     }
 
     public static CrimeLab get(Context context) {
@@ -33,6 +25,10 @@ public class CrimeLab {
             sCrimeLab = new CrimeLab(context.getApplicationContext());
         }
         return sCrimeLab;
+    }
+
+    public void addCrime(Crime c) {
+        mCrimes.add(c);
     }
 
     public ArrayList<Crime> getCrimes(){
