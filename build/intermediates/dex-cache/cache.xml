@@ -2,16 +2,16 @@
 <pre-dex-items>
 
     <item
-        dex="/Users/patricklosco/AndroidStudioProjects/CriminalIntent/app/build/intermediates/pre-dexed/debug/support-v4-19.1.0-eef1ae1548c11f2aa96a20d91610a218c9dde757.jar"
-        jar="/usr/local/Cellar/android-sdk/23.0.2/extras/android/m2repository/com/android/support/support-v4/19.1.0/support-v4-19.1.0.jar"
-        jumboMode="false"
-        revision="19.1.0"
-        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67"/>
-    <item
         dex="/Users/patricklosco/AndroidStudioProjects/CriminalIntent/app/build/intermediates/pre-dexed/debug/classes-dff75db85217bcc8fe57f17fe9acf350c98c4d79.jar"
         jar="/Users/patricklosco/AndroidStudioProjects/CriminalIntent/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/classes.jar"
         jumboMode="false"
         revision="19.1.0"
         sha1="3499ceba05ca1f6037c6a2fad73df8f636224a28"/>
+    <item
+        dex="/Users/patricklosco/AndroidStudioProjects/CriminalIntent/app/build/intermediates/pre-dexed/debug/support-v4-19.1.0-239fdf247a14b60e45051977cdf8ef9e18a0de82.jar"
+        jar="/Users/patricklosco/AndroidStudioProjects/sdk/extras/android/m2repository/com/android/support/support-v4/19.1.0/support-v4-19.1.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67"/>
 
 </pre-dex-items>
