@@ -127,6 +127,7 @@ public class CrimeFragment extends Fragment {
         switch (item.getItemId()) {
             case android.R.id.home:
                 if (NavUtils.getParentActivityName(getActivity()) != null) {
+                    // TODO - something is broken with this!!!
                     NavUtils.navigateUpFromSameTask(getActivity());
                 }
                 return true;
