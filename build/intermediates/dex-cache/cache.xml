@@ -2,14 +2,14 @@
 <pre-dex-items>
 
     <item
-        dex="/Users/patricklosco/AndroidStudioProjects/CriminalIntent/app/build/intermediates/pre-dexed/debug/classes-dff75db85217bcc8fe57f17fe9acf350c98c4d79.jar"
-        jar="/Users/patricklosco/AndroidStudioProjects/CriminalIntent/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/classes.jar"
+        dex="E:\Android\projects\CriminalIntent\app\build\intermediates\pre-dexed\debug\classes-f098e2356337c666ce7264bfa6e53e950267213b.jar"
+        jar="E:\Android\projects\CriminalIntent\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\19.1.0\classes.jar"
         jumboMode="false"
         revision="19.1.0"
         sha1="3499ceba05ca1f6037c6a2fad73df8f636224a28"/>
     <item
-        dex="/Users/patricklosco/AndroidStudioProjects/CriminalIntent/app/build/intermediates/pre-dexed/debug/support-v4-19.1.0-239fdf247a14b60e45051977cdf8ef9e18a0de82.jar"
-        jar="/Users/patricklosco/AndroidStudioProjects/sdk/extras/android/m2repository/com/android/support/support-v4/19.1.0/support-v4-19.1.0.jar"
+        dex="E:\Android\projects\CriminalIntent\app\build\intermediates\pre-dexed\debug\support-v4-19.1.0-89ab8e24f950c44fcb488f70fe5d1cfe172df577.jar"
+        jar="E:\Android\android-sdk\extras\android\m2repository\com\android\support\support-v4\19.1.0\support-v4-19.1.0.jar"
         jumboMode="false"
         revision="19.1.0"
         sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67"/>
